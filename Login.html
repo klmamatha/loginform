@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .container {
+        background-color: aquamarine;
+        width: 300px;
+        margin: 30px auto;
+        border-top: 2px solid pink;
+        padding: 30px;
+        border-bottom: 2px solid purple;
+
+    }
+
+    .email,
+    .password {
+        border: 0;
+        padding: 5px;
+        margin: 10px;
+        height: 20px;
+        margin-left: 20px;
+        border-bottom: 2px solid gray;
+    }
+
+    .submit {
+        border: none;
+        border-radius: 10px;
+        padding: 10px 10px 10px;
+        margin: 20px;
+        align-self: center;
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Login Form</h1>
+        <form method="post" action="">
+            <input type="mail" placeholder="mail" name="email" class="email" required /><br>
+            <input type="password" placeholder="enter password" name="password" class="password" maxlength="8"
+                required /><br>
+            <input type="submit" name="submit" class="submit"><br>
+            <p><a href="forgot.html">Forgot Password</a> <br> <br>Not a member <a href=" Register.html">Register
+                    here</a>
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
