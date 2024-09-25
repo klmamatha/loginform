@@ -1,0 +1,72 @@
+.containor {
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+
+img {
+    width: 280px;
+    height: 200px;
+    border: 1px solid rgb(194, 189, 189);
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.price {
+    color: rgb(184, 13, 13);
+}
+
+.align p {
+    text-align: center;
+    s
+}
+
+.al p {
+    color: brown;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sidebar {
+
+    margin: 50px 30px;
+
+}
+
+h1 {
+    color: rgb(33, 132, 212);
+}
+
+.cat1 {
+    background-color: blue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.cat2 {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#shop {
+    color: white;
+    text-decoration: none;
+}
+
+.cat,
+.cat1,
+.cat2 {
+    border: 1px solid grey;
+    padding: 10px;
+
+}
+
+
+a {
+    color: blue;
+}

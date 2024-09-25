@@ -1,0 +1,17 @@
+.box {
+    /* 1)contnat
+            2)padding
+            3)Border
+            4)outline
+            5)margin */
+    width: 500px;
+    height: auto;
+    /*contant */
+    padding: 20px;
+    /*padding-top,padding-right,padding-bottom,padding-left and padding all at once */
+    border: 5px outset #1c0fda;
+    /*solid,dashd,dotted,insit,outset,none,hiddden,grove and double */
+    margin: auto;
+    /*margin-top ,margin-left,margin-right,margin-bottom */
+    box-sizing: border-box;
+}
